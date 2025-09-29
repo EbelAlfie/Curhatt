@@ -1,0 +1,4 @@
+<resources>
+  <string name="app_name">Curhat</string>
+  <string name="chat.bar.hint">Ask Anything</string>
+</resources>
