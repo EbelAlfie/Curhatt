@@ -38,6 +38,14 @@ android {
 
 dependencies {
 
+  implementation(libs.retrofit)
+  implementation(libs.converter.gson)
+  implementation(libs.okhttp)
+  implementation(libs.logging.interceptor)
+
+  implementation(project.dependencies.platform(libs.koin.bom))
+  implementation(libs.koin.core)
+
   implementation(libs.androidx.core.ktx)
   implementation(libs.androidx.lifecycle.runtime.ktx)
   implementation(libs.androidx.activity.compose)
